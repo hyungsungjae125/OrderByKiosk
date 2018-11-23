@@ -15,6 +15,7 @@ namespace OrderByKiosk
             Panel panel = new Panel();
             panel.Location = new Point(p.PointX, p.PointY);
             panel.Size = new Size(p.SizeX, p.SizeY);
+            panel.Name = p.Name;
             panel.BackColor = p.Backcolor;
             return panel;
         }

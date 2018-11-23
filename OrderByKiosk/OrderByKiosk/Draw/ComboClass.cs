@@ -17,7 +17,6 @@ namespace OrderByKiosk
             cb.FormattingEnabled = true;
             cb.Location = new Point(combo.PointX,combo.PointY);
             cb.Size = new Size(combo.SizeX, combo.SizeY);
-            cb.TabIndex = 0;
             return cb;
         }
 

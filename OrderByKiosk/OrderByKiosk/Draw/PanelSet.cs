@@ -13,14 +13,13 @@ namespace OrderByKiosk
         Form form;
 
         string name;
-        string text;
         int sizeX, sizeY, pointX, pointY;
         Color backcolor;
-        public PanelSet(Form form, string name, string text, int sizeX, int sizeY, int pointX, int pointY,Color backcolor)
+
+        public PanelSet(Form form, string name,  int sizeX, int sizeY, int pointX, int pointY,Color backcolor)
         {
             this.form = form;
             this.name = name;
-            this.text = text;
             this.sizeX = sizeX;
             this.sizeY = sizeY;
             this.pointX = pointX;
@@ -30,7 +29,6 @@ namespace OrderByKiosk
 
         public Form Form { get => form; }
         public string Name { get => name; }
-        public string Text { get => text; }
         public int SizeX { get => sizeX; }
         public int SizeY { get => sizeY; }
         public int PointX { get => pointX; }

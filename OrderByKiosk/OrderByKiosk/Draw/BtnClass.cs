@@ -16,7 +16,6 @@ namespace OrderByKiosk
             button.DialogResult = DialogResult.OK;
             button.Size = new Size(btnSet.SizeX, btnSet.SizeY);
             button.Location = new Point(btnSet.PointX, btnSet.PointY);
-            button.BackColor = Color.Gainsboro;
             button.Text = btnSet.Text;
             button.Name = btnSet.Name;
 

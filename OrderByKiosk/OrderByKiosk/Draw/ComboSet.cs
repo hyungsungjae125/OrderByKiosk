@@ -11,13 +11,12 @@ namespace OrderByKiosk
     {
         Form form;
 
-        string name;
         string text;
         int sizeX, sizeY, pointX, pointY;
-        public ComboSet(Form form,string name,string text,int sizeX,int sizeY,int pointX,int pointY)
+
+        public ComboSet(Form form,string text,int sizeX,int sizeY,int pointX,int pointY)
         {
             this.form = form;
-            this.name = name;
             this.text = text;
             this.sizeX = sizeX;
             this.sizeY = sizeY;
@@ -26,7 +25,6 @@ namespace OrderByKiosk
         }
 
         public Form Form { get => form; }
-        public string Name { get => name; }
         public string Text { get => text; }
         public int SizeX { get => sizeX; }
         public int SizeY { get => sizeY; }

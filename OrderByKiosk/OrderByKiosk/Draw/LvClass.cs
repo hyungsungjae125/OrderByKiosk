@@ -17,7 +17,6 @@ namespace OrderByKiosk
             lv.GridLines = true;
             lv.Location = new Point(lvSet.PointX, lvSet.PointY);
             lv.Size = new Size(lvSet.SizeX, lvSet.SizeY);
-            lv.TabIndex = 0;
             return lv;
         }
     }

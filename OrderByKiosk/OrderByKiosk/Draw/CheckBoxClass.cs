@@ -10,7 +10,7 @@ namespace OrderByKiosk.Draw
 {
     class CheckBoxClass
     {
-        public CheckBox button(CheckBoxSet checkBoxSet)
+        public CheckBox CheckBox(CheckBoxSet checkBoxSet)
         {
             CheckBox checkBox = new CheckBox();
             checkBox.AutoSize = true;
