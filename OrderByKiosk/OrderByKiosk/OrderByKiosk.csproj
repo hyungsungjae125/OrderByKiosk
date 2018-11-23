@@ -48,10 +48,13 @@
   <ItemGroup>
     <Compile Include="Draw\BtnClass.cs" />
     <Compile Include="Draw\BtnSet.cs" />
-	<Compile Include="Draw\CheckBoxClass.cs" />
+    <Compile Include="Draw\CheckBoxClass.cs" />
     <Compile Include="Draw\CheckBoxSet.cs" />
+    <Compile Include="Draw\HintTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Draw\TxtboxSet.cs" />
-	<Compile Include="Draw\ComboClass.cs" />
+    <Compile Include="Draw\ComboClass.cs" />
     <Compile Include="Draw\ComboSet.cs" />
     <Compile Include="Draw\LvClass.cs" />
     <Compile Include="Draw\LvSet.cs" />

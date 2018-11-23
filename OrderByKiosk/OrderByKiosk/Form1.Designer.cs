@@ -1,4 +1,6 @@
-﻿namespace OrderByKiosk
+﻿using OrderByKiosk.Draw;
+
+namespace OrderByKiosk
 {
     partial class Form1
     {
