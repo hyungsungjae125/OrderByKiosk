@@ -18,6 +18,7 @@ namespace OrderByKiosk
             button.Location = new Point(btnSet.PointX, btnSet.PointY);
             button.BackColor = Color.Gainsboro;
             button.Text = btnSet.Text;
+            button.Name = btnSet.Name;
 
             button.Click += btnSet.eventHandler;
 

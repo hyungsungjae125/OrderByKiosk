@@ -48,6 +48,9 @@
   <ItemGroup>
     <Compile Include="Draw\BtnClass.cs" />
     <Compile Include="Draw\BtnSet.cs" />
+    <Compile Include="Draw\CheckBoxClass.cs" />
+    <Compile Include="Draw\CheckBoxSet.cs" />
+    <Compile Include="Draw\TxtboxSet.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +88,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
